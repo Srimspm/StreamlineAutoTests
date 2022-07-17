@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e15864db-c67d-4373-9764-0f544787c350"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="StreamlineRegressionTests.Actions.WelcomPageLibrary">
+	</codegen>
+	<variables>
+		<var
+		id="bda6157d-8d28-4734-8182-d3053748af96"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="de4859f2-977c-43ef-9ded-229dd4250a1a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="aebafeda-1bcb-4803-8111-a86eb3d897f6"
+	name="StreamlineRegressionTestsRepository"
+	relativepath="..\..\StreamlineRegressionTestsRepository.rxrep">
+		<codegen
+		classname="StreamlineRegressionTestsRepository"
+		namespace="StreamlineRegressionTests">
+		</codegen>
+		<rootfolder
+		id="ecee2a7b-122e-45cf-9998-e81a0d31589e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

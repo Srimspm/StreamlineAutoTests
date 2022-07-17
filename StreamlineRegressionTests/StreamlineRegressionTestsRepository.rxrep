@@ -1,0 +1,111 @@
+﻿<repository
+id="aebafeda-1bcb-4803-8111-a86eb3d897f6"
+name="StreamlineRegressionTestsRepository">
+	<codegen
+	classname="StreamlineRegressionTestsRepository"
+	namespace="StreamlineRegressionTests">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="ecee2a7b-122e-45cf-9998-e81a0d31589e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="44089ce2-7c94-41b3-9f1d-de539dc5d2ff"
+		isrooted="True"
+		name="FrmMain"
+		refpath="/form[@automationid='FrmMain']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="1e323cc1-67a2-4031-9ba7-e8e18a91e374"
+			name="Btn4"
+			refimgid="c9eb2a62-6e99-42aa-9166-94245b423d6a"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='DlgMessageBox']/container/element[@automationid='Btn4']"
+			robustPath="/form[@automationid='FrmMain']//element[@automationid='Btn4']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']/container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="aedde176-316e-4863-8680-29103f9566ce"
+			name="LblHeader"
+			refimgid="2778d078-6b72-42d2-99d4-dd7edc771781"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='PnlHeader']/text[@automationid='LblHeader']"
+			robustPath="/form[@automationid='FrmMain']/?/?/text[@automationid='LblHeader']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']/?/?/text[@automationid='LblHeader']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="402c16fc-2db5-4ef5-a73b-9363101f3e39"
+			name="BtnSettings"
+			refimgid="aa4f3c45-a0b8-48f3-9951-336acb246960"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='start']/container[@caption='']/element[@automationid='BtnSettings']"
+			robustPath="/form[@automationid='FrmMain']//element[@automationid='BtnSettings']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']/container[@automationid='start']/?/?/element[@automationid='BtnSettings']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="edafc40f-e4b6-4fa2-9da5-96b030611363"
+			name="TabControlPanel2"
+			refimgid="fb07d0c3-d0fb-4d88-bb50-05950a2db5e7"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='settings']/element[@automationid='329644']/container[@caption='']"
+			robustPath="/form[@automationid='FrmMain']//container[@automationid='tabControlPanel2']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']/container[@automationid='settings']/?/?/container[@automationid='tabControlPanel2']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="47845dff-f31f-444a-8b20-083d2b374ca3"
+			name="BtnBack"
+			refimgid="18ada990-ceef-4e01-86c3-59ba7ef6704f"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='PnlHeader']/element[@automationid='BtnBack']"
+			robustPath="/form[@automationid='FrmMain']/?/?/element[@automationid='BtnBack']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']/?/?/element[@automationid='BtnBack']
+			</item>
+			<item
+			addcaps="container,control,nativewindow"
+			capname="container"
+			id="8e4e54b9-9462-4227-85bb-f4ee3d4ede1f"
+			name="GradGroupBox2"
+			refimgid="7a4e55d9-929c-47ea-8a5d-50bd977bfbab"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='start']/container[@caption='']"
+			robustPath="/form[@automationid='FrmMain']/?/?/container[@automationid='gradGroupBox2']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']/?/?/container[@automationid='gradGroupBox2']
+			</item>
+			<basepath>
+				/form[@automationid='FrmMain']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHPSURBVDhPrZPLLwNBHMe3QRoOxAFXDhISjwji
+KOIkJcTJ4+APEBcOThKPeMUzWqJxEIQIiZLWpalyKfVKK0FkNZGq0KRIVZai8xsz0yldrRPf5HvY
+nf189re7s8K/BmOssNvtlQaDIZmfksVkMqXZbDYVP5QHAEbVh3cQ12+FhnURiAy73F4U3qqWZaQs
+7IHFzRNErm/laPDOGgILfVYcarrmGNpHjSDkdeFo1e9cII4LgtlsVikHrYiCNCljh0x2+/yG44t7
+ZeDb+weRdkKmSo10Ol0uE2i12qQm/SUTCL17sklufH74KaHtmNxGdHImoCHP5MyatsngL8mTH9pG
+jEiR38keqaRxhr6jI45+x+Px1Hik96gSF5GQTJAa3W53OUciI4qi8v4XybXXD2Q9kV8qDzFvGXcd
+MDxnIZ8I44eX6JLV83s6icixYMiJ9oyKcdkniy3ohsfXjwgBbcLgPpWscZztAwapmpdQTu3Ul4hJ
+wibZdflQ6fwpO2ZMKMQmUSC7ehKF4FBjCrpg68rLoLKFM1AOWCMFDocjZ2jW8uuuOzi9gVS+uWjr
+N0QUCATqOB6M0+ksIpPQzUGzQn6axvCSNTVfw5Ik1XDsrxGET/wgy6kLjMsgAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

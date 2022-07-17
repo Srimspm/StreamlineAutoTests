@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="359bd4c8-3338-4751-9a8d-0e9594411e6a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Trial"
+	namespace="StreamlineRegressionTests.Actions.WelcomPageLibrary">
+	</codegen>
+	<variables>
+		<var
+		id="0cb261bc-e8b4-41f4-921f-89d12e1e027b"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="Trial"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Trial_Run_application1"
+		namespace="StreamlineRegressionTests.Actions.WelcomPageLibrary"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="dfcb927b-de76-480a-a7c0-e37b1f9f496c">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="aebafeda-1bcb-4803-8111-a86eb3d897f6"
+	name="StreamlineRegressionTestsRepository"
+	relativepath="..\..\StreamlineRegressionTestsRepository.rxrep">
+		<codegen
+		classname="StreamlineRegressionTestsRepository"
+		namespace="StreamlineRegressionTests">
+		</codegen>
+		<rootfolder
+		id="ecee2a7b-122e-45cf-9998-e81a0d31589e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Trial.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
