@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.66s"
+		durationms="6662"
+		type="root"
+		rid="9946a3eb3eb822c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Srivi"
+		rxversion="10.2.2.0"
+		host="SRIVIGNESH10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-07-2022 15:11:31"
+		timestampiso="2022-07-17T19:11:31"
+		endtime="17-07-2022 15:11:38"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.627"
+			timeRelativeToTestModuleStartTime="00:06.627"
+			timeWallClock="15:11:38"
+			time="00:06.627"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.630"
+			timeRelativeToTestModuleStartTime="00:06.630"
+			timeWallClock="15:11:38"
+			time="00:06.630"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Users\Srivi\Downloads\Infotech\Streamline.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Actions\WelcomPageLibrary\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

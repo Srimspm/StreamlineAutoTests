@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.95s"
+		durationms="2948"
+		type="root"
+		rid="fefe7ae013fcd20"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Srivi"
+		rxversion="10.2.2.0"
+		host="SRIVIGNESH10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-07-2022 14:16:44"
+		timestampiso="2022-07-17T18:16:44"
+		endtime="17-07-2022 14:16:47"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Trial">
+		<detail>
+			Trial
+		</detail>
+		<errormessage>
+			Failed to run application 'C:\Users\Srivi\Downloads\Infotech\Streamline1.exe'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.834"
+			timeRelativeToTestModuleStartTime="00:02.834"
+			timeWallClock="14:16:46"
+			time="00:02.834"
+			level="Warn"
+			category="Data"
+			errimg="images_Trial.Us_1b297fb9\Trial.Us_1b297fb9_2ee4151d_trace.jpg"
+			errthumb="images_Trial.Us_1b297fb9\Trial.Us_1b297fb9_2ee4151d_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.840"
+			timeRelativeToTestModuleStartTime="00:02.840"
+			timeWallClock="14:16:46"
+			time="00:02.840"
+			level="Info"
+			category="Application"
+			errimg="images_Trial.Us_1b297fb9\Trial.Us_1b297fb9_2ee4151d_trace.jpg"
+			errthumb="images_Trial.Us_1b297fb9\Trial.Us_1b297fb9_2ee4151d_trace_thumb.jpg">
+			<message>
+				Run application 'C:\Users\Srivi\Downloads\Infotech\Streamline1.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Actions\WelcomPageLibrary\Trial.UserCode.cs"
+				codeline="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.847"
+			timeRelativeToTestModuleStartTime="00:02.847"
+			timeWallClock="14:16:46"
+			time="00:02.847"
+			level="Error"
+			category="Module"
+			errimg="images_Trial.Us_1b297fb9\Trial.Us_1b297fb9_2ee4151d_trace.jpg"
+			errthumb="images_Trial.Us_1b297fb9\Trial.Us_1b297fb9_2ee4151d_trace_thumb.jpg">
+			<message>
+				Failed to run application 'C:\Users\Srivi\Downloads\Infotech\Streamline1.exe'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized, RunAppFlags runFlags)
+   at Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   at StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Trial_Run_application() in C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Actions\WelcomPageLibrary\Trial.UserCode.cs:line 39
+   at StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Actions\WelcomPageLibrary\Trial.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Actions\WelcomPageLibrary\Trial.UserCode.cs"
+				codeline="39"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,29 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Actions\WelcomPageLibrary\CloseAUT.rxrec" />
+    <Element value="StreamLineBVT.rxtst" />
+    <Element value="Actions\WelcomPageLibrary\StartAUT.cs" />
+    <Element value="Actions\WelcomPageLibrary\Trial.UserCode.cs" />
+    <Element value="Actions\WelcomPageLibrary\Trial.rxrec" />
+    <Element value="Actions\WelcomPageLibrary\StartAUT.rxrec" />
+    <Element value="Actions\WelcomPageLibrary\StartAUT.UserCode.cs" />
+    <Element value="Actions\SettingsPageLibrary\ClickSettings.UserCode.cs" />
+    <Element value="Actions\SettingsPageLibrary\ClickSettings.rxrec" />
+    <Element value="Actions\WelcomPageLibrary\Trial.cs" />
+    <Element value="StreamlineRegressionTestsRepository.cs" />
+    <Element value="Actions\SettingsPageLibrary\ClickSettings.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchStreamline.Validate_LblHeader(RepoItemInfo textInfo)" />
+      <Element value="StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.StartAUT_Run_application()" />
+      <Element value="StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Trial_Run_application1()" />
+      <Element value="StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Trial_Run_application()" />
+    </Array>
+  </Properties>
+</Properties>

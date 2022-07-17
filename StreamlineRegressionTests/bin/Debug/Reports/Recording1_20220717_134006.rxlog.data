@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="33.38s"
+		durationms="33382"
+		type="root"
+		rid="d8e40c8e8762426"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Srivi"
+		rxversion="10.2.2.0"
+		host="SRIVIGNESH10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-07-2022 13:40:07"
+		timestampiso="2022-07-17T17:40:07"
+		endtime="17-07-2022 13:40:40"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.194"
+			timeRelativeToTestModuleStartTime="00:04.194"
+			timeWallClock="13:40:11"
+			time="00:04.194"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.Btn4' at 64;46.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='FrmMain']/container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']"
+				itempath="container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']"
+				fullname="StreamlineRegressionTestsRepository.FrmMain.Btn4"
+				id="1e323cc167a240319ba7e8e18a91e374"
+				timeout="60000"
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.384"
+			timeRelativeToTestModuleStartTime="00:33.384"
+			timeWallClock="13:40:40"
+			time="00:33.384"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

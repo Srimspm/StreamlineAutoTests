@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="StreamlineRegressionTests"
+      id="633afc10-338e-4119-be54-54f19072b7b5"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="StreamlineRegressionTests"
+      id="633afc10-338e-4119-be54-54f19072b7b5"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{A4D86F4A-5824-4B2B-B608-778E8114A1A8}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>d6b3cde1-c7cf-45e5-aeac-96992d2d4f4c</string>
+      <string>074ce463-d95e-463d-a071-893a2d71e03e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution StreamlineRegressionTests[StreamlineRegressionTests[Actions[SettingsPageLibrary[]]StreamlineRegressionTestsRepository.rxrep[]]]]&#xD;&#xA;Solution StreamlineRegressionTests\StreamlineRegressionTests\StreamLineBVT.rxtst&#xD;&#xA;Solution StreamlineRegressionTests" />
+  <StartupProject value="{A4D86F4A-5824-4B2B-B608-778E8114A1A8}" />
+</Properties>

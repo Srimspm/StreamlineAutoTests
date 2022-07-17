@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.19s"
+		durationms="13187"
+		type="root"
+		rid="26fa508611abe808"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Srivi"
+		rxversion="10.2.2.0"
+		host="SRIVIGNESH10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-07-2022 13:41:39"
+		timestampiso="2022-07-17T17:41:39"
+		endtime="17-07-2022 13:41:52"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.816"
+			timeRelativeToTestModuleStartTime="00:06.816"
+			timeWallClock="13:41:46"
+			time="00:06.816"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='START') on item 'FrmMain.LblHeader'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='FrmMain']/?/?/text[@automationid='LblHeader']"
+				itempath="?/?/text[@automationid='LblHeader']"
+				fullname="StreamlineRegressionTestsRepository.FrmMain.LblHeader"
+				id="aedde176316e4863868029103f9566ce"
+				timeout="60000"
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.083"
+			timeRelativeToTestModuleStartTime="00:13.083"
+			timeWallClock="13:41:52"
+			time="00:13.083"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'StreamlineRegressionTestsRepository.FrmMain.LblHeader' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='FrmMain']/?/?/text[@automationid='LblHeader']"
+				itempath="?/?/text[@automationid='LblHeader']"
+				fullname="StreamlineRegressionTestsRepository.FrmMain.LblHeader"
+				id="aedde176316e4863868029103f9566ce"
+				timeout="60000"
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Recording1.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

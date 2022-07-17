@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.63s"
+		durationms="7628"
+		type="root"
+		rid="45e3746eccb4a0e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Srivi"
+		rxversion="10.2.2.0"
+		host="SRIVIGNESH10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-07-2022 15:26:16"
+		timestampiso="2022-07-17T19:26:16"
+		endtime="17-07-2022 15:26:23"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.627"
+			timeRelativeToTestModuleStartTime="00:07.627"
+			timeWallClock="15:26:23"
+			time="00:07.627"
+			level="Failure"
+			category="Licensing">
+			<message>
+				The License Manager '3DCA-CEREBRO' was contacted, but no suitable license was available. Please add additional licenses to your License Manager or wait until licenses become available.
+			</message>
+			<metainfo
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.1m"
+		durationms="65806"
+		type="root"
+		rid="8a7baa438f01cae"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Srivi"
+		rxversion="10.2.2.0"
+		host="SRIVIGNESH10"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="17-07-2022 13:37:01"
+		timestampiso="2022-07-17T17:37:01"
+		endtime="17-07-2022 13:38:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'StreamlineRegressionTestsRepository.FrmMain.Btn4'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.309"
+			timeRelativeToTestModuleStartTime="00:05.309"
+			timeWallClock="13:37:07"
+			time="00:05.309"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_66593323\Recordin_66593323_16d0303c_trace.jpg"
+			errthumb="images_Recordin_66593323\Recordin_66593323_16d0303c_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'FrmMain.Btn4' at 64;46.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@automationid='FrmMain']/container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']"
+				itempath="container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']"
+				fullname="StreamlineRegressionTestsRepository.FrmMain.Btn4"
+				id="1e323cc167a240319ba7e8e18a91e374"
+				timeout="60000"
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.492"
+			timeRelativeToTestModuleStartTime="01:05.492"
+			timeWallClock="13:38:07"
+			time="01:05.492"
+			level="Info"
+			category="User"
+			errimg="images_Recordin_66593323\Recordin_66593323_e8347dd1_trace.jpg"
+			errthumb="images_Recordin_66593323\Recordin_66593323_e8347dd1_trace_thumb.jpg">
+			<message>
+				Item 'Btn4' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Recording1.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.641"
+			timeRelativeToTestModuleStartTime="01:05.641"
+			timeWallClock="13:38:07"
+			time="01:05.641"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_66593323\Recordin_66593323_0a16f1aa_trace.jpg"
+			errthumb="images_Recordin_66593323\Recordin_66593323_0a16f1aa_trace_thumb.jpg">
+			<message>
+				Failed to find item 'StreamlineRegressionTestsRepository.FrmMain.Btn4'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@automationid='FrmMain']/container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']' at step 'descendant-or-self::element[@automationid='Btn4']' after 245 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.get_Btn4() in C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\StreamlineRegressionTestsRepository.cs:line 133&#13;&#10;   at StreamlineRegressionTests.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Recording1.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\Srivi\Documents\Ranorex\RanorexStudio Projects\StreamlineRegressionTests\StreamlineRegressionTests\Recording1.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@automationid='FrmMain']/container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']"
+				itempath="container[@automationid='DlgMessageBox']/?/?/element[@automationid='Btn4']"
+				fullname="StreamlineRegressionTestsRepository.FrmMain.Btn4"
+				id="1e323cc167a240319ba7e8e18a91e374"
+				timeout="60000"
+				failedStep="descendant-or-self::element[@automationid='Btn4']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

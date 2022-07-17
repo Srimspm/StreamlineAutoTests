@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StreamlineRegressionTests</name>
+    </assembly>
+    <members>
+        <member name="T:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings">
+             <summary>
+            The ClickSettings recording.
+             </summary>
+        </member>
+        <member name="F:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings.repo">
+            <summary>
+            Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton">
+             <summary>
+            The ClickOnBackButton recording.
+             </summary>
+        </member>
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.repo">
+            <summary>
+            Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.repo">
+            <summary>
+            Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.repo">
+            <summary>
+            Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial">
+             <summary>
+            The Trial recording.
+             </summary>
+        </member>
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.repo">
+            <summary>
+            Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.StreamlineRegressionTestsRepository">
+            <summary>
+            The class representing the StreamlineRegressionTestsRepository element repository.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the StreamlineRegressionTestsRepository element repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.StreamlineRegressionTestsRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepository.FrmMain">
+            <summary>
+            The FrmMain folder.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder">
+            <summary>
+            The FrmMainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmMain  folder.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.Btn4">
+            <summary>
+            The Btn4 item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.Btn4Info">
+            <summary>
+            The Btn4 item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.LblHeader">
+            <summary>
+            The LblHeader item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.LblHeaderInfo">
+            <summary>
+            The LblHeader item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.BtnSettings">
+            <summary>
+            The BtnSettings item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.BtnSettingsInfo">
+            <summary>
+            The BtnSettings item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.TabControlPanel2">
+            <summary>
+            The TabControlPanel2 item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.TabControlPanel2Info">
+            <summary>
+            The TabControlPanel2 item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.BtnBack">
+            <summary>
+            The BtnBack item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.BtnBackInfo">
+            <summary>
+            The BtnBack item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.GradGroupBox2">
+            <summary>
+            The GradGroupBox2 item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.GradGroupBox2Info">
+            <summary>
+            The GradGroupBox2 item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
