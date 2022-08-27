@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
@@ -70,6 +70,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="8ff3f1a0-ed10-4bca-9bfb-6eb5dee3730c"
+			name="ClickSettings"
+			ref="876199dc-1924-4771-afa4-744ae6063988"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="9aa8069d-56e9-482d-89d9-38c14a6347fa"
 			name="clicksPartButton"
 			ref="675aea90-5679-434b-9416-4f2541dd08c9"
@@ -99,6 +105,12 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
+			<testmodule
+			id="bcd73bab-1f71-48be-9061-4de3e3076a66"
+			name="ClickOnBackButton"
+			ref="32ba99c9-0ca2-4e37-8ed4-8decbc85b1ba"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="caff32c0-b6b8-4333-a6f2-932f4b0fb818"
 			name="deletePart"
@@ -159,6 +171,14 @@
 						<testmodule
 						id="caff32c0-b6b8-4333-a6f2-932f4b0fb818"
 						name="deletePart">
+						</testmodule>
+						<testmodule
+						id="8ff3f1a0-ed10-4bca-9bfb-6eb5dee3730c"
+						name="ClickSettings">
+						</testmodule>
+						<testmodule
+						id="bcd73bab-1f71-48be-9061-4de3e3076a66"
+						name="ClickOnBackButton">
 						</testmodule>
 					</testcase>
 				</testcase>
