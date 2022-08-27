@@ -17,6 +17,10 @@
 			id="2ff56896-b03a-4842-b9a9-cb4a9de45d9d"
 			name="setup">
 			</setup>
+			<testcase
+			id="34b94e3f-dc8d-4977-a48c-3550fddf050c"
+			name="StabilityTests">
+			</testcase>
 			<testmodule
 			id="45e64715-093f-49b3-aeab-1a453fccfe59"
 			name="ClickSettings"
@@ -65,6 +69,12 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="8ff3f1a0-ed10-4bca-9bfb-6eb5dee3730c"
+			name="ClickSettings"
+			ref="876199dc-1924-4771-afa4-744ae6063988"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -89,6 +99,12 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
+			<testmodule
+			id="bcd73bab-1f71-48be-9061-4de3e3076a66"
+			name="ClickOnBackButton"
+			ref="32ba99c9-0ca2-4e37-8ed4-8decbc85b1ba"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="f92168ba-dfe2-41c1-970f-799215befa2b"
 			name="teardown">
@@ -133,6 +149,18 @@
 						name="ClickOnBackButton">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="34b94e3f-dc8d-4977-a48c-3550fddf050c"
+					name="StabilityTests">
+						<testmodule
+						id="8ff3f1a0-ed10-4bca-9bfb-6eb5dee3730c"
+						name="ClickSettings">
+						</testmodule>
+						<testmodule
+						id="bcd73bab-1f71-48be-9061-4de3e3076a66"
+						name="ClickOnBackButton">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -145,6 +173,9 @@
 		name="TestRun">
 			<testcontainer
 			id="0d6b1aba-bc97-4529-ace9-babbab313012">
+			</testcontainer>
+			<testcontainer
+			id="34b94e3f-dc8d-4977-a48c-3550fddf050c">
 			</testcontainer>
 			<testcontainer
 			id="4a1d1aa3-e167-46b9-a7c2-f07c9cdb0dd0">
