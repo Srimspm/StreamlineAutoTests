@@ -78,6 +78,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actions\PartPage\clicksPartButton.cs">
+      <BoundTo>a0d5e0da-dfc8-4fbe-babf-143244fb4750</BoundTo>
+      <DependentUpon>clicksPartButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ceb0ba5-cc23-4100-9620-c87a06a2d233</id>
+    </Compile>
+    <Compile Include="Actions\PartPage\clicksPartButton.UserCode.cs">
+      <BoundTo>a0d5e0da-dfc8-4fbe-babf-143244fb4750</BoundTo>
+      <DependentUpon>clicksPartButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e02c9813-908f-450a-8d94-7b727f082359</id>
+    </Compile>
+    <Compile Include="Actions\PartPage\deletePart.cs">
+      <BoundTo>c724513e-47d5-490c-8f9d-ca05153e1fb6</BoundTo>
+      <DependentUpon>deletePart.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f67d6991-392a-44c5-a4bf-9bffcd2b7ca6</id>
+    </Compile>
+    <Compile Include="Actions\PartPage\deletePart.UserCode.cs">
+      <BoundTo>c724513e-47d5-490c-8f9d-ca05153e1fb6</BoundTo>
+      <DependentUpon>deletePart.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6c5156d0-36b2-4e8c-96ff-2b631db728a9</id>
+    </Compile>
     <Compile Include="Actions\SettingsPageLibrary\ClickSettings.cs">
       <DependentUpon>ClickSettings.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -90,51 +114,51 @@
       <id>24fdd803-256e-42c1-896a-677d898e991d</id>
       <BoundTo>9e8ee394-7b12-4e35-b6d8-d9af0c8e4c65</BoundTo>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\ClickOnBackButton.cs">
-      <DependentUpon>ClickOnBackButton.rxrec</DependentUpon>
+    <Compile Include="Actions\WelcomPageLibrary\backButton.cs">
+      <DependentUpon>backButton.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>f7d0a5d4-e5e5-444a-a0b3-fc4755b22815</id>
       <BoundTo>05ed70b0-7261-4e98-83d4-021b4ea0ea4e</BoundTo>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\ClickOnBackButton.UserCode.cs">
-      <DependentUpon>ClickOnBackButton.rxrec</DependentUpon>
+    <Compile Include="Actions\WelcomPageLibrary\backButton.UserCode.cs">
+      <DependentUpon>backButton.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1e86a367-44f0-4c0f-b177-4369bef851be</id>
       <BoundTo>05ed70b0-7261-4e98-83d4-021b4ea0ea4e</BoundTo>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\CloseAUT.cs">
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+    <Compile Include="Actions\WelcomPageLibrary\exitButton.cs">
+      <DependentUpon>exitButton.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>4c9d465c-5eaf-48d3-b1a7-5930fe82d7e2</id>
       <BoundTo>cedbcb10-a99a-4065-93a5-2cc7f2046751</BoundTo>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\CloseAUT.UserCode.cs">
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+    <Compile Include="Actions\WelcomPageLibrary\exitButton.UserCode.cs">
+      <DependentUpon>exitButton.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>817aa31e-bc0d-4d83-9d9f-1ba9e4cfd0e0</id>
       <BoundTo>cedbcb10-a99a-4065-93a5-2cc7f2046751</BoundTo>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\StartAUT.cs">
-      <DependentUpon>StartAUT.rxrec</DependentUpon>
+    <Compile Include="Actions\WelcomPageLibrary\launchingApplication.cs">
+      <DependentUpon>launchingApplication.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>eea3b28b-f671-47d2-9e10-e9a0d4e84fa5</id>
       <BoundTo>7b0e27a1-e784-448a-9b1f-e3d7a838ba22</BoundTo>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\StartAUT.UserCode.cs">
-      <DependentUpon>StartAUT.rxrec</DependentUpon>
+    <Compile Include="Actions\WelcomPageLibrary\launchingApplication.UserCode.cs">
+      <DependentUpon>launchingApplication.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>bf48c866-639e-431c-8d49-4e2ecf753b47</id>
       <BoundTo>7b0e27a1-e784-448a-9b1f-e3d7a838ba22</BoundTo>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\Trial.cs">
+    <Compile Include="Actions\WelcomPageLibrary\superAction.cs">
       <BoundTo>4f574e64-fbf7-477c-8a3a-286cdf3e7bb4</BoundTo>
-      <DependentUpon>Trial.rxrec</DependentUpon>
+      <DependentUpon>superAction.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>d06513ff-923e-46e4-ab2a-49b720dbb192</id>
     </Compile>
-    <Compile Include="Actions\WelcomPageLibrary\Trial.UserCode.cs">
+    <Compile Include="Actions\WelcomPageLibrary\superAction.UserCode.cs">
       <BoundTo>4f574e64-fbf7-477c-8a3a-286cdf3e7bb4</BoundTo>
-      <DependentUpon>Trial.rxrec</DependentUpon>
+      <DependentUpon>superAction.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>fe26c46b-b89a-4dbd-af37-2b27e823258f</id>
     </Compile>
@@ -152,27 +176,37 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Actions\PartPage\clicksPartButton.rxrec">
+      <BoundTo>3fa2b1fe-3d45-4c09-8e8b-945a2a594905</BoundTo>
+      <id>a0d5e0da-dfc8-4fbe-babf-143244fb4750</id>
+      <recordtableid>675aea90-5679-434b-9416-4f2541dd08c9</recordtableid>
+    </None>
+    <None Include="Actions\PartPage\deletePart.rxrec">
+      <BoundTo>3fa2b1fe-3d45-4c09-8e8b-945a2a594905</BoundTo>
+      <id>c724513e-47d5-490c-8f9d-ca05153e1fb6</id>
+      <recordtableid>5b32e479-056a-4958-86b6-392164372c5b</recordtableid>
+    </None>
     <None Include="Actions\SettingsPageLibrary\ClickSettings.rxrec">
       <BoundTo>3fa2b1fe-3d45-4c09-8e8b-945a2a594905</BoundTo>
       <id>9e8ee394-7b12-4e35-b6d8-d9af0c8e4c65</id>
       <recordtableid>876199dc-1924-4771-afa4-744ae6063988</recordtableid>
     </None>
-    <None Include="Actions\WelcomPageLibrary\ClickOnBackButton.rxrec">
+    <None Include="Actions\WelcomPageLibrary\backButton.rxrec">
       <BoundTo>3fa2b1fe-3d45-4c09-8e8b-945a2a594905</BoundTo>
       <id>05ed70b0-7261-4e98-83d4-021b4ea0ea4e</id>
       <recordtableid>32ba99c9-0ca2-4e37-8ed4-8decbc85b1ba</recordtableid>
     </None>
-    <None Include="Actions\WelcomPageLibrary\CloseAUT.rxrec">
+    <None Include="Actions\WelcomPageLibrary\exitButton.rxrec">
       <BoundTo>3fa2b1fe-3d45-4c09-8e8b-945a2a594905</BoundTo>
       <id>cedbcb10-a99a-4065-93a5-2cc7f2046751</id>
       <recordtableid>e15864db-c67d-4373-9764-0f544787c350</recordtableid>
     </None>
-    <None Include="Actions\WelcomPageLibrary\StartAUT.rxrec">
+    <None Include="Actions\WelcomPageLibrary\launchingApplication.rxrec">
       <BoundTo>3fa2b1fe-3d45-4c09-8e8b-945a2a594905</BoundTo>
       <id>7b0e27a1-e784-448a-9b1f-e3d7a838ba22</id>
       <recordtableid>285e47f4-d74b-45d1-b671-1bd8bc59b86a</recordtableid>
     </None>
-    <None Include="Actions\WelcomPageLibrary\Trial.rxrec">
+    <None Include="Actions\WelcomPageLibrary\superAction.rxrec">
       <BoundTo>3fa2b1fe-3d45-4c09-8e8b-945a2a594905</BoundTo>
       <id>4f574e64-fbf7-477c-8a3a-286cdf3e7bb4</id>
       <recordtableid>359bd4c8-3338-4751-9a8d-0e9594411e6a</recordtableid>
@@ -209,6 +243,9 @@
   <ItemGroup>
     <Folder Include="Actions">
       <id>d6b3cde1-c7cf-45e5-aeac-96992d2d4f4c</id>
+    </Folder>
+    <Folder Include="Actions\PartPage">
+      <id>a281f65e-5736-424d-a144-ac7a07984e6a</id>
     </Folder>
     <Folder Include="Actions\WelcomPageLibrary">
       <id>074ce463-d95e-463d-a071-893a2d71e03e</id>

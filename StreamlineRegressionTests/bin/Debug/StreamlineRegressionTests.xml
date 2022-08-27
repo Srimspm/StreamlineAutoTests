@@ -4,6 +4,84 @@
         <name>StreamlineRegressionTests</name>
     </assembly>
     <members>
+        <member name="T:StreamlineRegressionTests.Actions.PartPage.clicksPartButton">
+             <summary>
+            The clicksPartButton recording.
+             </summary>
+        </member>
+        <member name="F:StreamlineRegressionTests.Actions.PartPage.clicksPartButton.repo">
+            <summary>
+            Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.clicksPartButton.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.PartPage.clicksPartButton.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.clicksPartButton.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.PartPage.clicksPartButton.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.clicksPartButton.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.clicksPartButton.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:StreamlineRegressionTests.Actions.PartPage.deletePart">
+             <summary>
+            The deletePart recording.
+             </summary>
+        </member>
+        <member name="F:StreamlineRegressionTests.Actions.PartPage.deletePart.repo">
+            <summary>
+            Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.deletePart.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.Actions.PartPage.deletePart.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.deletePart.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.PartPage.deletePart.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.deletePart.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:StreamlineRegressionTests.Actions.PartPage.deletePart.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
         <member name="T:StreamlineRegressionTests.Actions.SettingsPageLibrary.ClickSettings">
              <summary>
             The ClickSettings recording.
@@ -43,32 +121,32 @@
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton">
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton">
              <summary>
-            The ClickOnBackButton recording.
+            The backButton recording.
              </summary>
         </member>
-        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.repo">
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton.repo">
             <summary>
             Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.#ctor">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Instance">
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Start">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Instance"/>.
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton.Instance"/>.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -76,43 +154,43 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ClickOnBackButton.Init">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.BackButton.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT">
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton">
              <summary>
-            The CloseAUT recording.
+            The exitButton recording.
              </summary>
         </member>
-        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.repo">
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.repo">
             <summary>
             Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.#ctor">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Instance">
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.CloseAutProcessIDVar">
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.CloseAutProcessIDVar">
             <summary>
             Gets or sets the value of variable CloseAutProcessIDVar.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Start">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Instance"/>.
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.Instance"/>.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -120,43 +198,43 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.CloseAUT.Init">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.ExitButton.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT">
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication">
              <summary>
-            The StartAUT recording.
+            The launchingApplication recording.
              </summary>
         </member>
-        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.repo">
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.repo">
             <summary>
             Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.#ctor">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Instance">
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.StartAutProcessIDVar">
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.StartAutProcessIDVar">
             <summary>
             Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Start">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Instance"/>.
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.Instance"/>.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -164,43 +242,43 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.StartAUT.Init">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.LaunchingApplication.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial">
+        <member name="T:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction">
              <summary>
-            The Trial recording.
+            The superAction recording.
              </summary>
         </member>
-        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.repo">
+        <member name="F:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.repo">
             <summary>
             Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.#ctor">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Instance">
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.StartAutProcessIDVar">
+        <member name="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.StartAutProcessIDVar">
             <summary>
             Gets or sets the value of variable StartAutProcessIDVar.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Start">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Instance"/>.
+            Starts the replay of the static recording <see cref="P:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.Instance"/>.
             </summary>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -208,7 +286,7 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.Trial.Init">
+        <member name="M:StreamlineRegressionTests.Actions.WelcomPageLibrary.SuperAction.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
@@ -322,6 +400,36 @@
         <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.GradGroupBox2Info">
             <summary>
             The GradGroupBox2 item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.BtnPartList">
+            <summary>
+            The BtnPartList item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.BtnPartListInfo">
+            <summary>
+            The BtnPartList item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.Sdfsd">
+            <summary>
+            The Sdfsd item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.SdfsdInfo">
+            <summary>
+            The Sdfsd item info.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.ElementBtnDelete">
+            <summary>
+            The ElementBtnDelete item.
+            </summary>
+        </member>
+        <member name="P:StreamlineRegressionTests.StreamlineRegressionTestsRepositoryFolders.FrmMainAppFolder.ElementBtnDeleteInfo">
+            <summary>
+            The ElementBtnDelete item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

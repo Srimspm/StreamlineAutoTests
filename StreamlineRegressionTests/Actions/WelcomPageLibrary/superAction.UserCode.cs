@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
 {
-    public partial class StartAUT
+    public partial class SuperAction
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -33,7 +33,13 @@ namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
             // Your recording specific initialization code goes here.
         }
 
-        public void StartAUT_Run_application()
+        public void Trial_Run_application()
+        {
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\Downloads\\Infotech\\Streamline.exe' in normal mode. Return value bound to $StartAutProcessIDVar.");
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\Downloads\\Infotech\\Streamline.exe", "", "", false));
+        }
+
+        public void Trial_Run_application1()
         {
             Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\Srivi\\Downloads\\Infotech\\Streamline.exe' in normal mode. Return value bound to $StartAutProcessIDVar.");
             StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\Srivi\\Downloads\\Infotech\\Streamline.exe", "", "", false));

@@ -24,29 +24,29 @@ namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ClickOnBackButton recording.
+    ///The backButton recording.
     /// </summary>
     [TestModule("32ba99c9-0ca2-4e37-8ed4-8decbc85b1ba", ModuleType.Recording, 1)]
-    public partial class ClickOnBackButton : ITestModule
+    public partial class BackButton : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
         /// </summary>
         public static global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repo = global::StreamlineRegressionTests.StreamlineRegressionTestsRepository.Instance;
 
-        static ClickOnBackButton instance = new ClickOnBackButton();
+        static BackButton instance = new BackButton();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ClickOnBackButton()
+        public BackButton()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ClickOnBackButton Instance
+        public static BackButton Instance
         {
             get { return instance; }
         }

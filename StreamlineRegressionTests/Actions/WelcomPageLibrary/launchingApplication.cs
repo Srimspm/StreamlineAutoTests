@@ -24,22 +24,22 @@ namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The StartAUT recording.
+    ///The launchingApplication recording.
     /// </summary>
     [TestModule("285e47f4-d74b-45d1-b671-1bd8bc59b86a", ModuleType.Recording, 1)]
-    public partial class StartAUT : ITestModule
+    public partial class LaunchingApplication : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
         /// </summary>
         public static global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repo = global::StreamlineRegressionTests.StreamlineRegressionTestsRepository.Instance;
 
-        static StartAUT instance = new StartAUT();
+        static LaunchingApplication instance = new LaunchingApplication();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public StartAUT()
+        public LaunchingApplication()
         {
             StartAutProcessIDVar = "";
         }
@@ -47,7 +47,7 @@ namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static StartAUT Instance
+        public static LaunchingApplication Instance
         {
             get { return instance; }
         }

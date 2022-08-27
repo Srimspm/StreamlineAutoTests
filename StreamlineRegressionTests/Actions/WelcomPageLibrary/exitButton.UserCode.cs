@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
 {
-    public partial class ClickOnBackButton
+    public partial class ExitButton
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

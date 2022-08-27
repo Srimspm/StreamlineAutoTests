@@ -87,6 +87,39 @@ name="StreamlineRegressionTestsRepository">
 			searchtimeout="30000ms">
 				/form[@automationid='FrmMain']/?/?/container[@automationid='gradGroupBox2']
 			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="7396fccb-4e0e-4853-ad73-ab05aeb2b453"
+			name="BtnPartList"
+			refimgid="93ad18b7-85d0-4972-a682-b4be01c7b5b3"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='start']/container[@caption='']/element[@automationid='BtnPartList']"
+			robustPath="/form[@automationid='FrmMain']//element[@automationid='BtnPartList']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']//element[@automationid='BtnPartList']
+			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="44324995-9fdc-49e6-a65c-cbf0b58f6267"
+			name="Sdfsd"
+			refimgid="26141f54-9778-45ba-a4b1-ff318e2c97fc"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='partlist']/container[@caption='Parts']/table/row/cell[@text='sdfsd']"
+			robustPath="/form[@automationid='FrmMain']//cell[@text='sdfsd']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']//cell[@text='sdfsd']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="49a3ca04-686c-4ed8-a68d-5e66046e1ff9"
+			name="ElementBtnDelete"
+			refimgid="485b1140-2f84-4dd5-b419-1d3019f386b4"
+			refpath="/form[@automationid='FrmMain']/container[@caption='' and @automationid='partlist']/container[@caption='Parts']/element[@automationid='_btnDelete']"
+			robustPath="/form[@automationid='FrmMain']//element[@automationid='_btnDelete']"
+			searchtimeout="30000ms">
+				/form[@automationid='FrmMain']//element[@automationid='_btnDelete']
+			</item>
 			<basepath>
 				/form[@automationid='FrmMain']
 			</basepath>

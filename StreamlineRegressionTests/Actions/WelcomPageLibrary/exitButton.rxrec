@@ -19,7 +19,7 @@ mode="Desktop">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CloseAUT"
+	classname="ExitButton"
 	namespace="StreamlineRegressionTests.Actions.WelcomPageLibrary">
 	</codegen>
 	<variables>

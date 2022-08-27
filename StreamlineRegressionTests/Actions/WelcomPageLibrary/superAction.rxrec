@@ -19,7 +19,7 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Trial"
+	classname="SuperAction"
 	namespace="StreamlineRegressionTests.Actions.WelcomPageLibrary">
 	</codegen>
 	<variables>
@@ -30,7 +30,7 @@ mode="Global">
 	</variables>
 	<recorditems>
 		<userrecorditem
-		classname="Trial"
+		classname="SuperAction"
 		enabled="True"
 		isexternaltestmethod="False"
 		methodname="Trial_Run_application1"
@@ -60,7 +60,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Trial.UserCode.cs
+		superAction.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

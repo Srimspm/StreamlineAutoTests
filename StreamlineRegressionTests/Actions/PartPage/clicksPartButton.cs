@@ -20,51 +20,38 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
+namespace StreamlineRegressionTests.Actions.PartPage
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CloseAUT recording.
+    ///The clicksPartButton recording.
     /// </summary>
-    [TestModule("e15864db-c67d-4373-9764-0f544787c350", ModuleType.Recording, 1)]
-    public partial class CloseAUT : ITestModule
+    [TestModule("675aea90-5679-434b-9416-4f2541dd08c9", ModuleType.Recording, 1)]
+    public partial class clicksPartButton : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
         /// </summary>
         public static global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repo = global::StreamlineRegressionTests.StreamlineRegressionTestsRepository.Instance;
 
-        static CloseAUT instance = new CloseAUT();
+        static clicksPartButton instance = new clicksPartButton();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CloseAUT()
+        public clicksPartButton()
         {
-            CloseAutProcessIDVar = "-1";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CloseAUT Instance
+        public static clicksPartButton Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _CloseAutProcessIDVar;
-
-        /// <summary>
-        /// Gets or sets the value of variable CloseAutProcessIDVar.
-        /// </summary>
-        [TestVariable("bda6157d-8d28-4734-8182-d3053748af96")]
-        public string CloseAutProcessIDVar
-        {
-            get { return _CloseAutProcessIDVar; }
-            set { _CloseAutProcessIDVar = value; }
-        }
 
 #endregion
 
@@ -92,8 +79,12 @@ namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application with Process ID bound to variable $CloseAutProcessIDVar.", new RecordItemIndex(0));
-            Host.Current.CloseApplication(int.Parse(CloseAutProcessIDVar), 500);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmMain.BtnPartList' at 164;54.", repo.FrmMain.BtnPartListInfo, new RecordItemIndex(0));
+            repo.FrmMain.BtnPartList.Click("164;54");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmMain.Sdfsd' at 94;18.", repo.FrmMain.SdfsdInfo, new RecordItemIndex(1));
+            repo.FrmMain.Sdfsd.Click("94;18");
             Delay.Milliseconds(0);
             
         }

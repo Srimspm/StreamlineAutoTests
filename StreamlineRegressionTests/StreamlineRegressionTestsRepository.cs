@@ -91,6 +91,9 @@ namespace StreamlineRegressionTests
             RepoItemInfo _tabcontrolpanel2Info;
             RepoItemInfo _btnbackInfo;
             RepoItemInfo _gradgroupbox2Info;
+            RepoItemInfo _btnpartlistInfo;
+            RepoItemInfo _sdfsdInfo;
+            RepoItemInfo _elementbtndeleteInfo;
 
             /// <summary>
             /// Creates a new FrmMain  folder.
@@ -104,6 +107,9 @@ namespace StreamlineRegressionTests
                 _tabcontrolpanel2Info = new RepoItemInfo(this, "TabControlPanel2", "container[@automationid='settings']/?/?/container[@automationid='tabControlPanel2']", ".//container[@automationid='tabControlPanel2']", 30000, null, "edafc40f-e4b6-4fa2-9da5-96b030611363");
                 _btnbackInfo = new RepoItemInfo(this, "BtnBack", "?/?/element[@automationid='BtnBack']", "?/?/element[@automationid='BtnBack']", 30000, null, "47845dff-f31f-444a-8b20-083d2b374ca3");
                 _gradgroupbox2Info = new RepoItemInfo(this, "GradGroupBox2", "?/?/container[@automationid='gradGroupBox2']", "?/?/container[@automationid='gradGroupBox2']", 30000, null, "8e4e54b9-9462-4227-85bb-f4ee3d4ede1f");
+                _btnpartlistInfo = new RepoItemInfo(this, "BtnPartList", ".//element[@automationid='BtnPartList']", ".//element[@automationid='BtnPartList']", 30000, null, "7396fccb-4e0e-4853-ad73-ab05aeb2b453");
+                _sdfsdInfo = new RepoItemInfo(this, "Sdfsd", ".//cell[@text='sdfsd']", ".//cell[@text='sdfsd']", 30000, null, "44324995-9fdc-49e6-a65c-cbf0b58f6267");
+                _elementbtndeleteInfo = new RepoItemInfo(this, "ElementBtnDelete", ".//element[@automationid='_btnDelete']", ".//element[@automationid='_btnDelete']", 30000, null, "49a3ca04-686c-4ed8-a68d-5e66046e1ff9");
             }
 
             /// <summary>
@@ -271,6 +277,78 @@ namespace StreamlineRegressionTests
                 get
                 {
                     return _gradgroupbox2Info;
+                }
+            }
+
+            /// <summary>
+            /// The BtnPartList item.
+            /// </summary>
+            [RepositoryItem("7396fccb-4e0e-4853-ad73-ab05aeb2b453")]
+            public virtual Ranorex.Unknown BtnPartList
+            {
+                get
+                {
+                    return _btnpartlistInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnPartList item info.
+            /// </summary>
+            [RepositoryItemInfo("7396fccb-4e0e-4853-ad73-ab05aeb2b453")]
+            public virtual RepoItemInfo BtnPartListInfo
+            {
+                get
+                {
+                    return _btnpartlistInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Sdfsd item.
+            /// </summary>
+            [RepositoryItem("44324995-9fdc-49e6-a65c-cbf0b58f6267")]
+            public virtual Ranorex.Cell Sdfsd
+            {
+                get
+                {
+                    return _sdfsdInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Sdfsd item info.
+            /// </summary>
+            [RepositoryItemInfo("44324995-9fdc-49e6-a65c-cbf0b58f6267")]
+            public virtual RepoItemInfo SdfsdInfo
+            {
+                get
+                {
+                    return _sdfsdInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ElementBtnDelete item.
+            /// </summary>
+            [RepositoryItem("49a3ca04-686c-4ed8-a68d-5e66046e1ff9")]
+            public virtual Ranorex.Unknown ElementBtnDelete
+            {
+                get
+                {
+                    return _elementbtndeleteInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ElementBtnDelete item info.
+            /// </summary>
+            [RepositoryItemInfo("49a3ca04-686c-4ed8-a68d-5e66046e1ff9")]
+            public virtual RepoItemInfo ElementBtnDeleteInfo
+            {
+                get
+                {
+                    return _elementbtndeleteInfo;
                 }
             }
         }

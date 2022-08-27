@@ -17,6 +17,10 @@
 			id="2ff56896-b03a-4842-b9a9-cb4a9de45d9d"
 			name="setup">
 			</setup>
+			<testcase
+			id="34b94e3f-dc8d-4977-a48c-3550fddf050c"
+			name="StabilityTests">
+			</testcase>
 			<testmodule
 			id="45e64715-093f-49b3-aeab-1a453fccfe59"
 			name="ClickSettings"
@@ -29,7 +33,7 @@
 			</testcase>
 			<testmodule
 			id="4d1a1327-47b0-43c2-ac5f-7786935da7a4"
-			name="ClickOnBackButton"
+			name="BackButton"
 			ref="32ba99c9-0ca2-4e37-8ed4-8decbc85b1ba"
 			type="Recording">
 			</testmodule>
@@ -39,7 +43,7 @@
 			</testcase>
 			<testmodule
 			id="69f45753-5f36-4850-b125-a344fee7a24c"
-			name="StartAUT"
+			name="LaunchingApplication"
 			ref="285e47f4-d74b-45d1-b671-1bd8bc59b86a"
 			type="Recording">
 				<databinding>
@@ -53,7 +57,7 @@
 			</testmodule>
 			<testmodule
 			id="8d01906e-64cd-466f-925c-42e233d8486a"
-			name="CloseAUT"
+			name="ExitButton"
 			ref="e15864db-c67d-4373-9764-0f544787c350"
 			type="Recording">
 				<databinding>
@@ -64,6 +68,12 @@
 					variablename="CloseAutProcessIDVar">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="9aa8069d-56e9-482d-89d9-38c14a6347fa"
+			name="clicksPartButton"
+			ref="675aea90-5679-434b-9416-4f2541dd08c9"
+			type="Recording">
 			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -89,6 +99,12 @@
 			reportwriteinterval="30000ms"
 			singlereportpdfdirectory="SingleReportPDF">
 			</testsuite>
+			<testmodule
+			id="caff32c0-b6b8-4333-a6f2-932f4b0fb818"
+			name="deletePart"
+			ref="5b32e479-056a-4958-86b6-392164372c5b"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="f92168ba-dfe2-41c1-970f-799215befa2b"
 			name="teardown">
@@ -109,7 +125,7 @@
 						name="setup">
 							<testmodule
 							id="69f45753-5f36-4850-b125-a344fee7a24c"
-							name="StartAUT">
+							name="LaunchingApplication">
 							</testmodule>
 						</setup>
 						<teardown
@@ -117,7 +133,7 @@
 						name="teardown">
 							<testmodule
 							id="8d01906e-64cd-466f-925c-42e233d8486a"
-							name="CloseAUT">
+							name="ExitButton">
 							</testmodule>
 						</teardown>
 					</testcase>
@@ -130,7 +146,19 @@
 						</testmodule>
 						<testmodule
 						id="4d1a1327-47b0-43c2-ac5f-7786935da7a4"
-						name="ClickOnBackButton">
+						name="BackButton">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="34b94e3f-dc8d-4977-a48c-3550fddf050c"
+					name="StabilityTests">
+						<testmodule
+						id="9aa8069d-56e9-482d-89d9-38c14a6347fa"
+						name="clicksPartButton">
+						</testmodule>
+						<testmodule
+						id="caff32c0-b6b8-4333-a6f2-932f4b0fb818"
+						name="deletePart">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -145,6 +173,9 @@
 		name="TestRun">
 			<testcontainer
 			id="0d6b1aba-bc97-4529-ace9-babbab313012">
+			</testcontainer>
+			<testcontainer
+			id="34b94e3f-dc8d-4977-a48c-3550fddf050c">
 			</testcontainer>
 			<testcontainer
 			id="4a1d1aa3-e167-46b9-a7c2-f07c9cdb0dd0">

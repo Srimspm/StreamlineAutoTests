@@ -20,51 +20,38 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
+namespace StreamlineRegressionTests.Actions.PartPage
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Trial recording.
+    ///The deletePart recording.
     /// </summary>
-    [TestModule("359bd4c8-3338-4751-9a8d-0e9594411e6a", ModuleType.Recording, 1)]
-    public partial class Trial : ITestModule
+    [TestModule("5b32e479-056a-4958-86b6-392164372c5b", ModuleType.Recording, 1)]
+    public partial class deletePart : ITestModule
     {
         /// <summary>
         /// Holds an instance of the global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repository.
         /// </summary>
         public static global::StreamlineRegressionTests.StreamlineRegressionTestsRepository repo = global::StreamlineRegressionTests.StreamlineRegressionTestsRepository.Instance;
 
-        static Trial instance = new Trial();
+        static deletePart instance = new deletePart();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Trial()
+        public deletePart()
         {
-            StartAutProcessIDVar = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Trial Instance
+        public static deletePart Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _StartAutProcessIDVar;
-
-        /// <summary>
-        /// Gets or sets the value of variable StartAutProcessIDVar.
-        /// </summary>
-        [TestVariable("0cb261bc-e8b4-41f4-921f-89d12e1e027b")]
-        public string StartAutProcessIDVar
-        {
-            get { return _StartAutProcessIDVar; }
-            set { _StartAutProcessIDVar = value; }
-        }
 
 #endregion
 
@@ -92,7 +79,16 @@ namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
 
             Init();
 
-            Trial_Run_application1();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmMain.Sdfsd' at 128;16.", repo.FrmMain.SdfsdInfo, new RecordItemIndex(0));
+            repo.FrmMain.Sdfsd.Click("128;16");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmMain.ElementBtnDelete' at 41;45.", repo.FrmMain.ElementBtnDeleteInfo, new RecordItemIndex(1));
+            repo.FrmMain.ElementBtnDelete.Click("41;45");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmMain.Btn4' at 96;47.", repo.FrmMain.Btn4Info, new RecordItemIndex(2));
+            repo.FrmMain.Btn4.Click("96;47");
             Delay.Milliseconds(0);
             
         }

@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
+namespace StreamlineRegressionTests.Actions.PartPage
 {
-    public partial class Trial
+    public partial class clicksPartButton
     {
         /// <summary>
         /// This method gets called right after the recording has been started.
@@ -31,18 +31,6 @@ namespace StreamlineRegressionTests.Actions.WelcomPageLibrary
         private void Init()
         {
             // Your recording specific initialization code goes here.
-        }
-
-        public void Trial_Run_application()
-        {
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\Downloads\\Infotech\\Streamline.exe' in normal mode. Return value bound to $StartAutProcessIDVar.");
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\Downloads\\Infotech\\Streamline.exe", "", "", false));
-        }
-
-        public void Trial_Run_application1()
-        {
-            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Users\\Srivi\\Downloads\\Infotech\\Streamline.exe' in normal mode. Return value bound to $StartAutProcessIDVar.");
-            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Users\\Srivi\\Downloads\\Infotech\\Streamline.exe", "", "", false));
         }
 
     }
